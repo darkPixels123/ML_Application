@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files
+models/*.pkl
+models/*.joblib
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+
+# Docker
+*.log
+
+# VS Code
+.vscode/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
