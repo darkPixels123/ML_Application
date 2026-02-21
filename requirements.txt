@@ -6,3 +6,7 @@ scikit-learn
 shap
 joblib
 streamlit
+beautifulsoup4
+requests
+selenium
+webdriver-manager
