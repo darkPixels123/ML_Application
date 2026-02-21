@@ -99,7 +99,6 @@ def scrape_ikman_electronics(pages=1):
     df["Market_Discount_Magnitude_%"] = (
         (brand_avg - df["Price"]) / brand_avg * 100
     ).round(2)
-    df["Overpriced"] = (df["Market_Discount_Magnitude_%"] < 0).astype(int)
 
     return df
 
